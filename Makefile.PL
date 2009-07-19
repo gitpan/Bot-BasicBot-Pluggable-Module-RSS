@@ -8,6 +8,7 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Bot/BasicBot/Pluggable/Module/RSS.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
+                           'String::Format' => 0,
                            'POE::Component::RSSAggregator' => 0,
                            'File::Spec' => 0,
                            'Digest::MD5' => 0,
